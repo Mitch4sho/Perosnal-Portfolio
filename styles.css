@@ -96,97 +96,53 @@ main {
 /* Contact section Ends  */
 
 /* Project section */
+
 #projects {
   margin: 0px 150px 0px 150px;
 }
+.projectInfo {
+  position: absolute;
+  display: block;
+  background-color: #c4c4c4;
+  height: auto;
+  align-self: center;
+  left: 633px;
+  box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  padding: 20px;
+  margin-right: 150px;
+}
+.projectImg {
+  width: 594px;
+  height: auto;
+  box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.25);
+}
+.codeLink {
+  width: 20px;
+  height: auto;
+}
+.githubImg {
+  width: 20px;
+  height: auto;
+}
+/* Project One */
 #projectOne {
   display: flex;
   margin-bottom: 30px;
 }
-#projectInfo {
-  margin-right: 150px;
-}
-#projectOne a {
-  display: block;
-  background-color: #ecfffb;
-  width: 594px;
-  height: 325px;
-  box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-}
-#projectOne img {
-  width: 594px;
-  height: auto;
-  box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.25);
-}
-#projectOne div {
-  position: absolute;
-  display: block;
-  background-color: #c4c4c4;
-  height: auto;
-  align-self: center;
-  left: 633px;
-  box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-  padding: 20px;
-}
 
-#projectInfo a {
-  width: 20px;
-  height: auto;
-}
-#projectInfo img {
-  width: 20px;
-  height: auto;
-}
-
+/* Project Two */
 #projectTwo {
   display: flex;
   margin-bottom: 30px;
 }
-#projectTwo a {
-  display: block;
-  background-color: #ecfffb;
-  width: 594px;
-  height: 381px;
-  box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-}
-#projectTwo div {
-  position: absolute;
-  display: block;
-  background-color: #c4c4c4;
-  height: auto;
-  align-self: center;
-  left: 633px;
-  box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-  padding: 20px;
-}
 
+/* Project Three */
 #projectThree {
   display: flex;
   margin-bottom: 30px;
 }
-#projectThree a {
-  display: block;
-  background-color: #ecfffb;
-  width: 594px;
-  height: 381px;
-  box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-}
-#projectThree div {
-  position: absolute;
-  display: block;
-  background-color: #c4c4c4;
-  height: auto;
-  align-self: center;
-  left: 633px;
-  box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
-  padding: 20px;
-}
+
 /* Mobile Responsive*/
 
 /* @media only screen and (max-width: 415px){

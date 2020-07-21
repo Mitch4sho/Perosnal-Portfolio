@@ -57,6 +57,10 @@ main {
   margin-left: 50px;
   margin-top: 50px;
 }
+#hero {
+  margin: 0px 300px 0px 300px;
+  padding: 20px 0px 150px 0px;
+}
 #hero h2 {
   font-weight: 300;
   font-size: 30px;
@@ -77,14 +81,16 @@ main {
 }
 
 /* Contact section */
+
+#contact {
+  margin: 0px 300px 0px 300px;
+  padding: 50px 0px 200px 0px;
+}
 #contact h1 {
   font-style: normal;
   font-weight: normal;
   font-size: 35px;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-}
-#contact {
-  margin-bottom: 200px;
 }
 #icons img {
   width: 50%;
@@ -98,7 +104,8 @@ main {
 /* Project section */
 
 #projects {
-  margin: 0px 150px 0px 150px;
+  margin: 0px 200px 0px 200px;
+  padding: 200px 0px 200px 0px;
 }
 .projectInfo {
   position: absolute;
@@ -110,12 +117,13 @@ main {
   box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   padding: 20px;
-  margin-right: 150px;
+  margin-right: 200px;
 }
 .projectImg {
   width: 594px;
   height: auto;
   box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
 }
 .codeLink {
   width: 20px;
@@ -124,6 +132,7 @@ main {
 .githubImg {
   width: 20px;
   height: auto;
+  padding-top: 7px;
 }
 /* Project One */
 #projectOne {
@@ -142,6 +151,25 @@ main {
   display: flex;
   margin-bottom: 30px;
 }
+
+/* About Me */
+#about {
+  margin: 200px 0px 200px 0px;
+  padding: 0px 300px 0px 300px;
+}
+#about p {
+  margin-bottom: 40px;
+}
+#about ul {
+  display: flex;
+  flex-direction: column;
+}
+/* #about li:before {
+  background-image: url(/Users/mitchelloliver/Projects/PersonalProject/MItchell-Portfolio/Assets/download.png);
+  background-repeat: no-repeat;
+  width: 700px;
+  height: auto;
+} */
 
 /* Mobile Responsive*/
 

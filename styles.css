@@ -154,22 +154,40 @@ main {
 
 /* About Me */
 #about {
-  margin: 200px 0px 200px 0px;
+  margin: 200px 150px 200px 150px;
   padding: 0px 300px 0px 300px;
 }
 #about p {
-  margin-bottom: 40px;
+  margin: 40px 0px 40px 0px;
 }
 #about ul {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  overflow: hidden;
+  padding: 0px;
+  margin: 20px 0px 0px 0px;
+  align
 }
-/* #about li:before {
-  background-image: url(/Users/mitchelloliver/Projects/PersonalProject/MItchell-Portfolio/Assets/download.png);
-  background-repeat: no-repeat;
-  width: 700px;
-  height: auto;
-} */
+#about li {
+  font-size: 15px;
+}
+#about li:before {
+  content: ">";
+  color: #2078f8;
+  margin-right: 20px;
+}
+
+#contactMe{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  margin-top: 100px;
+}
+#contactMe button{
+  background-color: #fffaec;
+  color:#2078f8;
+  border: solid 1.5px #2078f8;
+}
 
 /* Mobile Responsive*/
 

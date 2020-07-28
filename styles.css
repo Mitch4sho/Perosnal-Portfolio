@@ -231,12 +231,13 @@ footer{
      display: flex;
      align-items:center;
      justify-content: center;
+     width:100%;
    }
    #mobileContact button{
-    display: block;
-    background-color: #fffaec;
-    color:#2078f8;
-    border: solid 1.5px #2078f8;
+     display:block;
+     background-color: #fffaec;
+     color:#2078f8;
+     border: solid 1.5px #2078f8;
    }
    #contact{
     display: none;
@@ -244,14 +245,21 @@ footer{
 /* Projects */
 
   #projects{
-    display: none;
+    margin: 0px;
+    padding: 15px 20px 20px 20px;
+    background-color: #ecfffb;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 7px;
   }
-  /* .projectsImg{
-    width: 375px;
-    height: auto;
-  } */
+  .projectImg{
+    width: 100%;
+    height:auto;
+  }
   .projectInfo{
     display: none;
+    position:;
+    padding: 0px;
+    margin-right: 0px;
   }
 
 /*About me */

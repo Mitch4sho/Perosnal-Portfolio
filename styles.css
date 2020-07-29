@@ -79,10 +79,9 @@ main {
   margin-bottom: 200px;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
-#mobileContact button{
-  display:none;
+#mobileContact button {
+  display: none;
 }
-
 
 /* Contact section */
 
@@ -155,6 +154,10 @@ main {
   display: flex;
   margin-bottom: 30px;
 }
+/* mobile section */
+.mobileSection {
+  display: none;
+}
 
 /* About Me */
 #about {
@@ -170,102 +173,137 @@ main {
   overflow: hidden;
   padding: 0px;
   margin: 20px 0px 0px 0px;
-  align
 }
+
 #about li {
   font-size: 15px;
 }
+
 #about li:before {
   content: ">";
   color: #2078f8;
   margin-right: 20px;
 }
 
-#contactMe{
+#contactMe {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   margin-top: 100px;
 }
-#contactMe button{
+#contactMe button {
   background-color: #fffaec;
-  color:#2078f8;
+  color: #2078f8;
   border: solid 1.5px #2078f8;
 }
-footer{
+footer {
   display: none;
 }
 
 /* Mobile Responsive*/
 
- @media only screen and (max-width: 415px){
-
-  #main-sections{
-    height: 100%; 
+@media only screen and (max-width: 415px) {
+  #main-sections {
+    height: 100%;
     margin: 0px;
     padding: 0px 25px 0px 25px;
   }
 
   /*navbar */
-   #navbar{
-     display:none;
-   }
-
-
-/* Introduction */
-   #hero{
-     padding: 150px 0px 150px 0px;
-     margin: 0px;
-   }
-   #hero h2{
-     font-size: 13px;
-   }
-   #hero h1{
-     font-size: 40px;
-   }
-   #hero p{
-     font-size: 18px;
-     margin-bottom: 50px;
-   }
-   #mobileContact{
-     display: flex;
-     align-items:center;
-     justify-content: center;
-     width:100%;
-   }
-   #mobileContact button{
-     display:block;
-     background-color: #fffaec;
-     color:#2078f8;
-     border: solid 1.5px #2078f8;
-   }
-   #contact{
+  #navbar {
     display: none;
   }
-/* Projects */
 
-  #projects{
+  /* Introduction */
+  #hero {
+    padding: 150px 0px 150px 0px;
     margin: 0px;
-    padding: 15px 20px 20px 20px;
+  }
+  #hero h2 {
+    font-size: 13px;
+  }
+  #hero h1 {
+    font-size: 40px;
+  }
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  #mobileContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  #mobileContact button {
+    display: block;
+    background-color: #fffaec;
+    color: #2078f8;
+    border: solid 1.5px #2078f8;
+  }
+  #contact {
+    display: none;
+  }
+  /* Projects */
+
+  #projects {
+    margin: 0px;
+    padding: 15px 20px 10px 20px;
     background-color: #ecfffb;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Project One */
+  #projectOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Project Two */
+  #projectTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Project Three */
+  #projectThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projectImg {
+    width: 100%;
+    height: auto;
     border-radius: 7px;
   }
-  .projectImg{
-    width: 100%;
-    height:auto;
-  }
-  .projectInfo{
+  .projectInfo {
     display: none;
-    position:;
     padding: 0px;
     margin-right: 0px;
   }
-
-/*About me */
-  #about{
-    display: none;
+  .mobileSection {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 9px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
   }
- }
 
-  
+  /*About me */
+  #about {
+    margin: 100px 0px 75px 0px;
+    padding: 0px;
+  }
+}

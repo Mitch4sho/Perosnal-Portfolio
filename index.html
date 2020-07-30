@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <link rel='stylesheet' href='menu.css'>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap"
       rel="stylesheet"
@@ -12,13 +13,30 @@
   </head>
   <body>
     <nav id="navbar" class="container">
-      <ul>
-        <li><a id="navlinks" href="#contact">Contact</a></li>
-        <li><a id="navlinks" href="#projects">Projects</a></li>
-        <li><a id="navlinks" href="#about">About</a></li>
+      <ul id='navlinks'>
+        <li><a id="navlink" href="#contact">Contact</a></li>
+        <li><a id="navlink" href="#projects">Projects</a></li>
+        <li><a id="navlink" href="#about">About</a></li>
       </ul>
       <button type="button" id="resume">Resume</button>
     </nav>
+    <!-- mobile section of navigation -->
+    <nav id='mobileNavbar'>
+      <input type="checkbox" class='toggler'>
+      <div class="hamburger"><div></div></div>
+      <div class ='menu'>
+        <div>
+          <div>
+            <ul>
+              <li><a id="navlinks" href="#contact">Contact</a></li>
+              <li><a id="navlinks" href="#projects">Projects</a></li>
+              <li><a id="navlinks" href="#about">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- mobile section of navigation ends -->
     <main id="main-sections">
       <section id="hero">
         <h2>Hi, my name is</h2>
